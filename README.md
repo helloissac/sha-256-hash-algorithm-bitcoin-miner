@@ -18,11 +18,9 @@ security, respectively, against collision attacks. Since the goal of the new Adv
 ## Function
 The SHA-256 compression function operates on a 512-bit message block and a 256-bit intermediate hash value. It is a 256-bit block cypher algorithm that encrypts the intermediate hash value using the message block as the key. Hence there are two main components to describe: (1) the SHA-256 compression function and (2) the SHA-256 message schedule.
 
-<img src="https://github.com/issacjohannli/sha-256-hash-algorithm-bitcoin-miner/blob/main/diagrams/sha-256-compression-function.png">
-
 ## Diagrams
 The SHA-256 compression function is shown below, where the square tile symbols denote mod 2<sup>32</sup> addition.
-
+<img src="https://github.com/issacjohannli/sha-256-hash-algorithm-bitcoin-miner/blob/main/diagrams/sha-256-compression-function.png">
 Figure 1: <i>j</i><sup>th</sup> internal step of the SHA-256 compression function <i>C</i>.
 
 ## Sample Hash Computations
